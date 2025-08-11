@@ -4,7 +4,7 @@ import string
 from pathlib import Path
 class Bank:
    
-    database = Path("bankmanagement/data.json") 
+    database = Path("bankmanagement/maindata.json") 
     data = []
     try:
         if Path(database).exists():
