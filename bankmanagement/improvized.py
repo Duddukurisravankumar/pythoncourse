@@ -5,7 +5,7 @@ from pathlib import Path
 
 
 class Bank:
-    database = Path("bankmanagement/data.json")
+    database = Path("bankmanagement/appdata.json")
     data = []
 
     @classmethod
